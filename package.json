@@ -1,0 +1,9 @@
+{
+    "name": "415-5-demo",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "^1.6.1",
+        "grunt-contrib-sass": "^2.0.0",
+        "grunt-contrib-watch": "^1.1.0"
+    }
+}

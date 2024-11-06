@@ -1,0 +1,15 @@
+@use "sass:color";
+
+$font__main: 'Sorts Mill Goudy', serif;
+$font__heading: 'Montserrat', sans-serif;
+
+$color__blue: #0b3887;
+$color__orange: #ea6a33;
+$color__grey: #a2abb0;
+$color__white: #ffffff;
+$color__block: #000000;
+
+$color__background: #fefefe;
+
+$color__link: $color__blue;
+$color__link-hover: color.adjust($color__blue, $lightness: 15%);

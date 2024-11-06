@@ -1,0 +1,11 @@
+@media screen and (max-width: 1120px) {
+  body {
+    padding: 8vw;
+  }
+  .row {
+    flex-direction: column;
+    .col {
+      flex-basis: auto;
+    }
+  }
+}
