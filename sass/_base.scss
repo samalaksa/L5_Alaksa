@@ -33,22 +33,21 @@ a {
 .row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   padding-top: 4vw;
 
-  .col {
+  .col, .col2 {
     flex-basis: 48%; 
     padding: 0.5vw;
-    margin-right: 2vw;
   }
-  .col2 {
-    flex-basis: 48%;
-    padding: 0.5vw;
-    margin-left: 2vw;
-  }
+
   .secondImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: auto;
-    display: block;
-    margin: 0;
+    height: 90%;
+    
   }
 }
