@@ -2,10 +2,12 @@
 
 body {
     font-family: $font__main;
+    font-size: large;
 }
 .link {
     font-family: $font__heading;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: $font__heading;
     color: $color__blue;
