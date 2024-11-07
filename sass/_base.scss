@@ -25,10 +25,30 @@ a {
     color: $color__link-hover;
   }
 }
+
+.paragraph, link {
+  flex-basis: 50%;
+}
+
 .row {
-  padding-top: 0vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4vw;
 
   .col {
-    flex-basis: 50%;
+    flex-basis: 48%; 
+    padding: 0.5vw;
+    margin-right: 2vw;
+  }
+  .col2 {
+    flex-basis: 48%;
+    padding: 0.5vw;
+    margin-left: 2vw;
+  }
+  .secondImg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
   }
 }
