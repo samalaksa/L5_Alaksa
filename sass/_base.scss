@@ -1,8 +1,23 @@
 @use "variables" as *;
 
+img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
-  padding: 8vw 15vw;
-  background-color: #8cc5e6;
+  padding: 4vw 6vw;
+  background-color: #c8e6ff;
+}
+h1 {
+  padding-top: 2vw;
 }
 a {
   color: $color__link;
