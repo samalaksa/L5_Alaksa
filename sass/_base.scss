@@ -1,12 +1,5 @@
 @use "variables" as *;
 
-img {
-  width: 50%;
-  height: auto;
-  display: block;
-  margin: 0;
-  padding: 0;
-}
 .header {
   width: 100%;
   margin: 0;
@@ -40,14 +33,5 @@ a {
   .col, .col2 {
     flex-basis: 48%; 
     padding: 0.5vw;
-  }
-
-  .secondImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 90%;
-    
   }
 }
